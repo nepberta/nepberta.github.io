@@ -1,7 +1,7 @@
 ---
 title: "Nepglue"
 date: 2022-10-09T12:07:55+05:45
-draft: true
+draft: false
 ---
 
 ## Nep-gLUE Benchmark:

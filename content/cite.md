@@ -1,7 +1,7 @@
 ---
 title: "Cite"
 date: 2022-10-09T12:07:22+05:45
-draft: true
+draft: false
 ---
 
 # Citation:
