@@ -1,7 +1,7 @@
 # Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
 # and drop a star while you're at it. ;)
-baseurl = "https://examplesite.com/"
-title = "Jane Doe"
+baseurl = "/"
+title = "NepBERTa"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 #disqusShortname = "" # Enable comments by entering your Disqus shortname
@@ -29,28 +29,18 @@ metaDataFormat= "yaml"
   enabled = true
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
-  headerTitle = "Jane Doe"
-  copyright = "© 2021 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
-  name = "jane_doe"
-  img = "img/author.jpg"
+  headerTitle = "NepBERTa: Nepali Language Model Trained in a Large Corpus"
+  
+  name = "NepBERTa"
+  img = "images/nepberta.png"
   img_title = "Thanks to Christina @ wocintechchat.com for this photo."
-  icon = "img/logo.png"
-  quote = "A nice quote that you like that describes the beautiful person you are."
-  description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Quis risus sed vulputate odio ut. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Bibendum at varius vel pharetra vel turpis. Semper viverra nam libero justo laoreet sit amet cursus. Mauris a diam maecenas sed enim ut sem."
+  icon = "images/nepberta.png"
+  quote = "Authors: Anonymous"
+  description= "This is the paper we present here."
   licenseUrl = ""
 
- # Social icons
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/avron/gruvhugo"
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:mail@mail.com"
-
-  [[params.social]]
-    name = "gpg"
-    url  = "https://keys.openpgp.org/"
+# Social icons
 
   [[params.social]]
     name = "twitter"
@@ -58,11 +48,16 @@ metaDataFormat= "yaml"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/nepbertapaper"
 
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/"
+  
+  [[params.social]]
+  name = "email"
+  url  = "mailto:nepberta@gmail.com"
+
 
 [params.style]
   # add path to custom CSS files here
@@ -73,18 +68,26 @@ metaDataFormat= "yaml"
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
-    url        = "about"
+    name       = "Get training data!"
+    url        = "https://google.com"
 
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "Get Source Code!"
     url        = "post/"
 
   [[menu.main]]
     identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
+    name       = "Nep-gLUE Benchmark!"
+    url        = "nepglue"
+  [[menu.main]]
+    identifier = "abs"
+    name       = "Abstract"
+    url        = "abstract"
+  [[menu.main]]
+    identifier = "cite"
+    name       = "Cite this Paper!"
+    url        = "cite"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
