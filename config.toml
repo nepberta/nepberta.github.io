@@ -30,13 +30,12 @@ metaDataFormat= "yaml"
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
   headerTitle = "NepBERTa: Nepali Language Model Trained in a Large Corpus"
-  
   name = "NepBERTa"
   img = "images/nepberta.png"
-  img_title = "Thanks to Christina @ wocintechchat.com for this photo."
+  img_title = "Thanks to unsplash for this photo."
   icon = "images/nepberta.png"
-  quote = "Authors: Anonymous"
-  description= "This is the paper we present here."
+  quote = "Authors: Sulav Timilsina, Milan Gautam and Binod Bhattarai"
+  description= ""
   licenseUrl = ""
 
 
