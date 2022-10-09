@@ -8,7 +8,7 @@ draft: false
 ### Please consider citing our work if you use our any data or code. 
 ```
 @article{nepberta,
-author= {Anonymous},
+author= {Sulav Timilsina, Milan Gautam, Binod Bhattarai},
 title = {NepBERTa: Nepali Language Model Trained in a Large Corpus},
 journal = {softconf},
 year = {2022},

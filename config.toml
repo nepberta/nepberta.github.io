@@ -47,7 +47,7 @@ metaDataFormat= "yaml"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/nepbertapaper"
+    url  = "https://github.com/nepberta"
 
   [[params.social]]
     name = "linkedin"
@@ -66,27 +66,32 @@ metaDataFormat= "yaml"
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "Get training data!"
-    url        = "https://google.com"
+    identifier = "training-data"
+    name       = "Training data"
+    url        = "https://drive.google.com/drive/folders/1oLvfKb663wZuw-n36ymHsSYAqeSHmKzo?usp=sharing"
 
   [[menu.main]]
-    identifier = "posts"
-    name       = "Get Source Code!"
-    url        = "post/"
+    identifier = "source-code"
+    name       = "Source Code"
+    url        = "https://github.com/nepberta/NepBERTa_Codes"
 
   [[menu.main]]
-    identifier = "wiki"
-    name       = "Nep-gLUE Benchmark!"
+    identifier = "benchmark"
+    name       = "Nep-gLUE Benchmark"
     url        = "nepglue"
   [[menu.main]]
-    identifier = "abs"
+    identifier = "abstract"
     name       = "Abstract"
     url        = "abstract"
   [[menu.main]]
     identifier = "cite"
-    name       = "Cite this Paper!"
+    name       = "Citations"
     url        = "cite"
+
+  [[menu.main]]
+    identifier = "model"
+    name       = "Pretrained Model"
+    url        = "https://huggingface.co/NepBERTa/NepBERTa"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
