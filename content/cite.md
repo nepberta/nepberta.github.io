@@ -8,7 +8,7 @@ draft: false
 ### Please consider citing our work if you use our any data or code. 
 ```
 @inproceedings{nepberta,
-author= {Milan Gautam, Sulav Timilsina, Binod Bhattarai},
+author= {Gautam, Milan and Timilsina, Sulav and  Bhattarai, Binod},
 title = {NepBERTa: Nepali Language Model Trained in a Large Corpus},
 booktitle = {AACL},
 year = {2022}
