@@ -35,7 +35,7 @@ metaDataFormat= "yaml"
   img_title = "Thanks to unsplash for this photo."
   icon = "images/nepberta_paluaa.png"
   quote = "Authors: Milan Gautam, Sulav Timilsina and Binod Bhattarai"
-  description= "This website contains the official release of the model NepBERTa and associated downstream finetuning code, datasets, and benchmarks introduced in the paper titled, NepBERTa: Nepali Language Model Trained in a Large Corpus accpeted in The 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing: AACL-IJCNLP 2022. "
+  description= "This website contains the official release of the model NepBERTa and associated downstream finetuning code, datasets, and benchmarks introduced in the paper titled, NepBERTa: Nepali Language Model Trained in a Large Corpus, which is published in The 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing: AACL-IJCNLP 2022. "
   licenseUrl = ""
 
 
@@ -80,9 +80,9 @@ metaDataFormat= "yaml"
     name       = "Nep-gLUE Benchmark"
     url        = "nepglue"
   [[menu.main]]
-    identifier = "abstract"
-    name       = "Abstract"
-    url        = "abstract"
+    identifier = "paper"
+    name       = "Paper"
+    url        = "https://aclanthology.org/2022.aacl-short.34/"
   [[menu.main]]
     identifier = "cite"
     name       = "Citations"
